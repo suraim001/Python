@@ -110,3 +110,22 @@ print(name) # 49
 
 
 #Take Input
+#input() = A fuction that prompts the user to enter data
+#          Returns the entered data as a string
+
+name = input("What is your name? : ")
+print(f"Hello, {name}!")
+age = input("What is your age? : ")
+#age += 1  #TypeError: str + integer
+
+age = int(age)
+age += 1
+print(f"Wow! You are going to be {age} years old soon.")
+
+cgpa = float(input("What is your CGPA? : "))
+salami = cgpa * 10
+print(f"I will get only {salami} TK as my EID bonus.")
+
+
+
+
